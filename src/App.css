@@ -1,1 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+:root {
+    --color-text: #fbfcff;
+    --color-background: #000f08;
+    --color-primary: #1b998b;
+    --color-secondary: #279af1;
+    --color-tertiary: #b7245c;
+
+    --font-roboto: "Roboto";
+
+};
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 75px;
+
+}
+
+body {
+    font-weight: 400;
+    overflow-x: hidden;
+    position: relative;
+    background-color: var(--color-background)!important;
+    color: var(--color-text)!important;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif !important;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+    line-height: normal;
+}
 

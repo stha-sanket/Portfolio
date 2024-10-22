@@ -16,3 +16,9 @@ const HeroAbout = () => {
         deleteSpeed: 30,
         delaySpeed: 1000,
     });
+
+        const info = [
+        { text: "Degree", count: "Computer Science with AI" },
+        { text: "Completed Projects", count: "4+" },
+        { text: "College", count: "Sunway College" },
+    ];
